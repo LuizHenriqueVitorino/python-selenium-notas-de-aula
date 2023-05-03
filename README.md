@@ -1,7 +1,7 @@
-# SELENIUM - LASIM - MARACANAÚ
+# SELENIUM - LASIC - MARACANAÚ
 
 ## PÚBLICO ALVO
-    Alunos do laboratório LASIM Maracanaú que estão iniciando na programação (em especial no QA).
+    Alunos do laboratório LASIC Maracanaú que estão iniciando na programação (em especial no QA).
 
 ## CÓDIGO DAS ATIVIDADE DOS ALUNOS
 ### ATIVIDADES
