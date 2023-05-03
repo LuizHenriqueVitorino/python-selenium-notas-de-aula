@@ -31,7 +31,7 @@ CONTEÚDO JÁ APRESENTADO:
 - [x] Esperas Implícitas e Explícitas.
 - [x] Expected Conditions
 - [x] Interagindo com Alerts e Prompts
-- [] Interagindo com abas e janelas
-- [] Interagindo com frames
-- [] Padrão Page Object
-- [] Behave
+- [ ] Interagindo com abas e janelas
+- [ ] Interagindo com frames
+- [ ] Padrão Page Object
+- [ ] Behave
