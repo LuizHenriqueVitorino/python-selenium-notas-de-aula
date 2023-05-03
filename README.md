@@ -46,15 +46,15 @@ Alunos do laboratório LASIC Maracanaú que estão iniciando na programação (e
 ## DEPENDÊNCIAS
 ### SELENIUM
 ```
-    pip intall selenium
+    pip install selenium
 ```
 ### DRIVER
 1. Faça o download do driver do navegador:
 
 | Navegador         | Driver            |
 |:------------------|:------------------|
-|Firefox            |* [Geckodriver](https://github.com/mozilla/geckodriver/releases/latest)        |
-|Chrome             |* [Chromedriver](https://chromedriver.chromium.org/downloads)       |
+|Firefox            |[Geckodriver](https://github.com/mozilla/geckodriver/releases/latest)        |
+|Chrome             |[Chromedriver](https://chromedriver.chromium.org/downloads)       |
 
 2. Descompact o arquivo baixado.
 3. Mova para o diretório /usr/local/bin
