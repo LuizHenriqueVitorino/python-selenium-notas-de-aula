@@ -45,9 +45,9 @@ Alunos do laboratório LASIC Maracanaú que estão iniciando na programação (e
 
 ## DEPENDÊNCIAS
 ### SELENIUM
-'''
+```
     pip intall selenium
-'''
+```
 ### DRIVER
 1. Faça o download do driver do navegador:
 
@@ -59,6 +59,6 @@ Alunos do laboratório LASIC Maracanaú que estão iniciando na programação (e
 2. Descompact o arquivo baixado.
 3. Mova para o diretório /usr/local/bin
 
-'''
+```
     sudo mv nome_do_driver /usr/local/bin
-'''
+```
