@@ -1,7 +1,14 @@
 # SELENIUM - LASIC - MARACANAÚ
 
+## INFORMAÇÕES:
++ **Professor de Selenium:** Luiz Henrique da Silva Vitorino
++ **Respontável pelo LASIC:** Carlos Henrique Leitão
++ **Laboratório:** LASIC
++ **Instituição:** IFCE
++ **Campus:** Maracanaú
+
 ## PÚBLICO ALVO
-    Alunos do laboratório LASIC Maracanaú que estão iniciando na programação (em especial no QA).
+Alunos do laboratório LASIC Maracanaú que estão iniciando na programação (em especial no QA).
 
 ## CÓDIGO DAS ATIVIDADE DOS ALUNOS
 ### ATIVIDADES
@@ -18,7 +25,7 @@
 #### ALERTS E PROMPTS
 
 ## CONTEÚDO PROGRAMÁTICO
-CONTEÚDO JÁ APRESENTADO:
+
 - [x] Configuração do ambiente:
     - [x] Instalação do Selenium com pip (pip install selenium)
     - [x] configuração do geckodriver (pode intalar tambem o chromedriver)
