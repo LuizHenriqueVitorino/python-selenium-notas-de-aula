@@ -25,7 +25,7 @@ Alunos do laboratório LASIC Maracanaú que estão iniciando na programação (e
 
 #### ALERTS E PROMPTS
 - [Cauan - ALERT](https://github.com/cauan-sampaio/curso-selenium/blob/main/login.py)
--[Cauan - PROMPT](https://github.com/cauan-sampaio/curso-selenium/blob/main/prompt.py)
+- [Cauan - PROMPT](https://github.com/cauan-sampaio/curso-selenium/blob/main/prompt.py)
 
 #### ABAS E JANELAS
 - [Cauan](https://github.com/cauan-sampaio/curso-selenium/blob/main/abas.py)
