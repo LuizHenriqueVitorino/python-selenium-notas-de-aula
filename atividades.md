@@ -77,7 +77,7 @@ https://omayo.blogspot.com/
 3. Escreva algo no **prompt** e aperte no botão **OK**<br>
 ![Prompt](imagens/documentacao/prompt.png)
 
-### 2. **ABAS E JANELAS** - *Exercício da função que pecorre os Ids das páginas abertas*
+### 3. **ABAS E JANELAS** - *Exercício da função que pecorre os Ids das páginas abertas*
 
 Implemente uma automação com **SELENIUM** de acordo com o que se pede:
 
