@@ -24,6 +24,11 @@ Alunos do laboratório LASIC Maracanaú que estão iniciando na programação (e
 - [João Pedro - Espera Implícita](https://github.com/jppn123/Selenium-Py/blob/main/-implicitWait.py)
 
 #### ALERTS E PROMPTS
+- [Cauan - ALERT](https://github.com/cauan-sampaio/curso-selenium/blob/main/login.py)
+-[Cauan - PROMPT](https://github.com/cauan-sampaio/curso-selenium/blob/main/prompt.py)
+
+#### ABAS E JANELAS
+- [Cauan](https://github.com/cauan-sampaio/curso-selenium/blob/main/abas.py)
 
 ## CONTEÚDO PROGRAMÁTICO
 
