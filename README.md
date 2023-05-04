@@ -39,7 +39,7 @@ Alunos do laboratório LASIC Maracanaú que estão iniciando na programação (e
 - [x] Esperas Implícitas e Explícitas.
 - [x] Expected Conditions
 - [x] Interagindo com Alerts e Prompts
-- [ ] Interagindo com abas e janelas
+- [x] Interagindo com abas e janelas
 - [ ] Interagindo com frames
 - [ ] Padrão Page Object
 - [ ] Behave

@@ -11,9 +11,9 @@ from time import sleep
 
 driver = webdriver.Chrome()
 driver.get('https://github.com/LuizHenriqueVitorino/python-selenium-notas-de-aula')
-driver.switch_to.new_window('window')
+driver.switch_to.new_window('tab')
 driver.get('https://luizhenriquevitorino.github.io/Curriculo/html/')
-driver.switch_to.new_window('window')
+driver.switch_to.new_window('tab')
 driver.get('https://web.whatsapp.com/')
 
 driver.current_url
