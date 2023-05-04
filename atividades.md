@@ -22,10 +22,10 @@ Implement um caso de teste automatizado com **Selenium** de forma que a automaç
 ```md
 https://selenium.dunossauro.live/exercicio_06.html
 ```
-2. Preencha o primeiro formulário com um *nome* e uma *senha* e clique no botão *enviar*;
+2. Preencha o primeiro formulário com um *nome* e uma *senha* e clique no botão *enviar*;<br>
 ![imagem do formulario](imagens/documentacao/formulario1.png)
 
-3. Verifique a resposta no canto inferior esquerdo da tela;
+3. Verifique a resposta no canto inferior esquerdo da tela;<br>
 ![resposta](imagens/documentacao/resposta.png)
 
 4. Repita este procedimento para todos os formulários.
@@ -38,16 +38,16 @@ Crie dois arquivos e implemente dois casos de testes automatizado com **SELENIUM
 ```md
 https://selenium.dunossauro.live/aula_09_a.html
 ``` 
-2. Espere o carregamento do botão **barrinha top**;
+2. Espere o carregamento do botão **barrinha top**;<br>
 ![carregamento do botão barrinha top](imagens/documentacao/carrega_botao.png)
 
-3. Clique no botão **barrinha top**;
+3. Clique no botão **barrinha top**;<br>
 ![botão barrinha top](/imagens/documentacao/botao_barrinha_top.png)
 
 4. Espere a barra de load desaparecer;
 ![barrinha de load](/imagens/documentacao/barra_de_load.png)
 
-5. Verifique a mensagem de carregamento concluído utilizando *assert*
+5. Verifique a mensagem de carregamento concluído utilizando *assert*<br>
 ![mensagem de sucesso](imagens/documentacao/carregamento_concluido.png)
 
 ### 2. **Alerts e Prompts** - *Exercício do site omayo*
@@ -58,10 +58,10 @@ Implemente um caso de testes automatizado com **SELENIUM** para o seguinte cená
 ```md
 https://omayo.blogspot.com/
 ```
-2. Preencha o login simples no final da página;
+2. Preencha o login simples no final da página;<br>
 ![login simples](imagens/documentacao/login_simples.png)
 
-3. Dê um **assert** na mensagem no Alert e clique em **OK**;
+3. Dê um **assert** na mensagem no Alert e clique em **OK**;<br>
 ![Alert](imagens/documentacao/alert.png)
 
 #### 2.2 **PROMPTs**
@@ -71,10 +71,10 @@ Implemente um caso de testes automatizado com **SELENIUM** para o seguinte cená
 ```md
 https://omayo.blogspot.com/
 ```
-2. Clique no botão **get prompt** localizado no lado direito da tela;
+2. Clique no botão **get prompt** localizado no lado direito da tela;<br>
 ![botão get prompt](imagens/documentacao/botao_prompt.png)
 
-3. Escreva algo no **prompt** e aperte no botão **OK**
+3. Escreva algo no **prompt** e aperte no botão **OK**<br>
 ![Prompt](imagens/documentacao/prompt.png)
 
 ### 2. **ABAS E JANELAS** - *Exercício da função que pecorre os Ids das páginas abertas*
