@@ -1,6 +1,7 @@
 # SELENIUM - LASIC - MARACANAÚ
 
 ## INFORMAÇÕES:
+<!-- TODO: Colocar links de cada informação -->
 + **Professor de Selenium:** Luiz Henrique da Silva Vitorino
 + **Respontável pelo LASIC:** Carlos Henrique Leitão
 + **Laboratório:** LASIC
