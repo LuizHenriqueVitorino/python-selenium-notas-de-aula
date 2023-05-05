@@ -1,12 +1,12 @@
 # SELENIUM - LASIC - MARACANAÚ
 
 ## INFORMAÇÕES:
-<!-- TODO: Colocar links de cada informação -->
-+ **Professor de Selenium:** [Luiz Henrique da Silva Vitorino](https://github.com/LuizHenriqueVitorino)
-+ **Respontável pelo LASIC:** Carlos Henrique Leitão
-+ **Laboratório:** [LASIC](https://lasicifce.com.br/)
-+ **Instituição:** [IFCE](https://ifce.edu.br/)
-+ **Campus:** [Maracanaú](https://ifce.edu.br/maracanau)
+
++ **Professor de Selenium:** [Luiz Henrique da Silva Vitorino](https://github.com/LuizHenriqueVitorino);
++ **Respontável pelo LASIC:** Carlos Henrique Leitão;
++ **Laboratório:** [LASIC](https://lasicifce.com.br/);
++ **Instituição:** [IFCE](https://ifce.edu.br/);
++ **Campus:** [Maracanaú](https://ifce.edu.br/maracanau).
 
 ## PÚBLICO ALVO
 Alunos do laboratório LASIC Maracanaú que estão iniciando na programação (em especial no QA).
