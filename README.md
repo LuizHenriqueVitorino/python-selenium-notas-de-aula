@@ -49,6 +49,7 @@ Alunos do laboratório LASIC Maracanaú que estão iniciando na programação (e
 #### **Testlink** - *Desafio proposto pela GREat-UFC*
 - [João Pedro](https://github.com/jppn123/Selenium-Py/tree/main/great-atividade)
 - [Cauan](https://github.com/cauan-sampaio/curso-selenium/blob/main/GREat-UFC.py)
+- [Ana Letícia](https://github.com/ana-le-ticia/selenium/blob/main/GREat-UFC.py)
 
 ## CONTEÚDO PROGRAMÁTICO
 
@@ -72,6 +73,7 @@ Alunos do laboratório LASIC Maracanaú que estão iniciando na programação (e
 ## DEPENDÊNCIAS
 ### SELENIUM
 ```
+    sudo apt install python3-pip
     pip install selenium
 ```
 ### DRIVER

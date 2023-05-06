@@ -5,11 +5,12 @@ from time import sleep
     NOTAS DE AULA:
     janelas = abas (para o navegador)
     janelas são identificadas por ids
-    current_window_handle -> retorna uma string do ai da janela atual
-    window_handles -> retorna uma lista com os ids de todas as janelas abertas
+    current_window_handle -> retorna uma string do ID da janela atual
+    window_handles -> retorna uma lista com os IDs de todas as janelas abertas
 """
 
-driver = webdriver.Chrome()
+# driver = webdriver.Chrome()
+driver = webdriver.Firefox()
 driver.get('https://github.com/LuizHenriqueVitorino/python-selenium-notas-de-aula')
 driver.switch_to.new_window('window')
 driver.get('https://luizhenriquevitorino.github.io/Curriculo/html/')
