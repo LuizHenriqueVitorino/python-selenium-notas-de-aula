@@ -81,6 +81,7 @@ Alunos do laboratório LASIC Maracanaú que estão iniciando na programação (e
 |:------------------|:------------------|
 |Firefox            |[Geckodriver](https://github.com/mozilla/geckodriver/releases/latest)        |
 |Chrome             |[Chromedriver](https://chromedriver.chromium.org/downloads)       |
+|Edge               | [edgedriver](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/)
 
 2. Descompact o arquivo baixado.
 3. Mova para o diretório /usr/local/bin
