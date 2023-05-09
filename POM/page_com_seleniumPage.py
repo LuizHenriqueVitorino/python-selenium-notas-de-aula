@@ -20,7 +20,7 @@ class SauceDemoPage(SeleniumPage):
         self.driver.get(self.url)
 
     def get_titulo(self):
-        return self.driver.find_element(By.CLASS_NAME, "login_logo").text
+        return self.encontrar_elemento((By.CLASS_NAME, "login_logo")).text
     
     def escrever(self, locator, str):
         self.encontrar_elemento(locator).send_keys(str)
@@ -46,6 +46,8 @@ class CaixaLogin(SauceDemoPage):
 
 pagina = CaixaLogin()
 pagina.entrar()
+
+print(pagina.get_titulo())
 
 pagina.escrever_nome("standard_user")
 pagina.escrever_senha("secret_sauce")
