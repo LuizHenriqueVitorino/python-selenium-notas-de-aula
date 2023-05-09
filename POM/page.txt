@@ -1,0 +1,18 @@
+Tela login
+
+header
+	- logo
+caixa de login
+	- nome
+	- senha
+	- botão login
+	&logar (nome, senha)
+	
+credenciais
+	- nomes dos usuários
+	- senha	
+	&__get__
+
+
+caso_de_teste
+from page importe *
