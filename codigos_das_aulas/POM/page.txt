@@ -9,10 +9,29 @@ caixa de login
 	&logar (nome, senha)
 	
 credenciais
-	- nomes dos usuários
-	- senha	
-	&__get__
+	- get nomes dos usuários
+	- get senha	
+
 
 
 caso_de_teste
 from page importe *
+
+raiana = raianalegal.split('a')
+raiana = ['r', 'i', 'n', 'leg', 'l']
+
+Accepted usernames are:
+standard_user
+locked_out_user
+problem_user
+performance_glitch_user
+
+vetor = [
+	'Accepted usernames are:', 
+	'standard_user', 
+	'locked_out_user', 
+	'problem_user', 
+	'performance_glitch_user'
+	]
+
+vetor = vetor[1:]

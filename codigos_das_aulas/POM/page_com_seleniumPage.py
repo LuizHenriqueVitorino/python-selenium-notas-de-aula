@@ -9,6 +9,12 @@ class SeleniumPage:
 
     def encontrar_elemento(self, locator):
         return self.driver.find_element(*locator)
+    
+    def escrever(self, locator, str):
+        self.encontrar_elemento(locator).send_keys(str)
+
+    def clicar(self, locator):
+        self.encontrar_elemento(locator).click()
 
 class SauceDemoPage(SeleniumPage):
     def __init__(self) -> None:
@@ -21,12 +27,6 @@ class SauceDemoPage(SeleniumPage):
 
     def get_titulo(self):
         return self.encontrar_elemento((By.CLASS_NAME, "login_logo")).text
-    
-    def escrever(self, locator, str):
-        self.encontrar_elemento(locator).send_keys(str)
-
-    def clicar(self, locator):
-        self.encontrar_elemento(locator).click()
     
 class CaixaLogin(SauceDemoPage):
     def __init__(self) -> None:
@@ -44,14 +44,30 @@ class CaixaLogin(SauceDemoPage):
     def submit(self):
         self.clicar(self.botao)
 
+    def logar(self, nome_user, senha_user):
+        self.escrever_nome(nome_user)
+        self.escrever_senha(senha_user)
+        self.submit()
+
+class Credenciais(SauceDemoPage):
+    def __init__(self) -> None:
+        super().__init__()
+        self.usuarios = (By.XPATH, '//*[@id="login_credentials"]/br')
+
+    def get_usuarios(self):
+        string = pagina.driver.find_element(By.ID, "login_credentials").text
+        vetor = string.split('\n')[1:]
+    
+    def get_senhas(self):
+        pass
+
+
 pagina = CaixaLogin()
 pagina.entrar()
 
 print(pagina.get_titulo())
 
-pagina.escrever_nome("standard_user")
-pagina.escrever_senha("secret_sauce")
-pagina.submit()
+pagina.logar('standard_user', 'secret_sauce')
 
 
 sleep(5)
