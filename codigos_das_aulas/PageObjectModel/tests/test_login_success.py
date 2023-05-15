@@ -1,22 +1,26 @@
 import sys
 import os
 
-# Adicione o caminho para o diretório raiz do seu projeto ao sys.path
+# Adiciona o caminho para o diretório raiz do projeto ao sys.path
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-from pages.login_page import CaixaLogin
+from pages.login_page import CaixaLoginPage, CredenciaisPage
 from time import sleep
 from selenium import webdriver
 
 # setUp
 driver = webdriver.Chrome()
-pagina = CaixaLogin(driver)
+login = CaixaLoginPage(driver)
+credenciais = CredenciaisPage(driver)
+
 
 # Teste
-pagina.entrar()
-pagina.logar('standard_user', 'secret_sauce')
+login.entrar()
+usuario_sucesso = credenciais.get_usuarios()[0]
+senha = credenciais.get_senhas()[0]
+login.logar(usuario_sucesso, senha)
 
 # terarDown
 sleep(5)
-pagina.driver.close()
+login.driver.close()
 
