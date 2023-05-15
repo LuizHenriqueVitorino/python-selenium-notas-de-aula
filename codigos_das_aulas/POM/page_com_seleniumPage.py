@@ -2,8 +2,9 @@ from typing import Any
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from time import sleep
+from abc import ABC
 
-class SeleniumPage:
+class SeleniumPage(ABC):
     def __init__(self) -> None:
         self.webdriver = webdriver.Chrome()
 
@@ -17,23 +18,18 @@ class SeleniumPage:
         self.encontrar_elemento(locator).click()
 
 class SauceDemoPage(SeleniumPage):
-    def __init__(self) -> None:
-        super().__init__()
-        self.driver = self.webdriver
-        self.url = 'https://www.saucedemo.com/'
+    url = 'https://www.saucedemo.com/'
 
     def entrar(self) -> None:
-        self.driver.get(self.url)
+        self.webdriver.get(self.url)
 
     def get_titulo(self):
         return self.encontrar_elemento((By.CLASS_NAME, "login_logo")).text
     
 class CaixaLogin(SauceDemoPage):
-    def __init__(self) -> None:
-        super().__init__()
-        self.nome = (By.ID, "user-name")
-        self.senha = (By.ID, "password")
-        self.botao = (By.ID, "login-button")
+    nome = (By.ID, "user-name")
+    senha = (By.ID, "password")
+    botao = (By.ID, "login-button")
 
     def escrever_nome(self, nome_str: str):
         self.escrever(self.nome, nome_str)
@@ -49,11 +45,9 @@ class CaixaLogin(SauceDemoPage):
         self.escrever_senha(senha_user)
         self.submit()
 
-class Credenciais(CaixaLogin):
-    def __init__(self) -> None:
-        super().__init__()
-        self.usuarios = (By.ID, "login_credentials")
-        self.senhas = (By.CLASS_NAME, "login_password")
+class Credenciais(SauceDemoPage):
+    usuarios = (By.ID, "login_credentials")
+    senhas = (By.CLASS_NAME, "login_password")
 
     def get_usuarios(self):
         string = self.encontrar_elemento(self.usuarios).text
@@ -66,13 +60,12 @@ class Credenciais(CaixaLogin):
         vetor = string.split('\n')[1:]
         return vetor
 
-pagina = Credenciais()
+pagina = CaixaLogin()
+credenciais = Credenciais()
 pagina.entrar()
-sleep(3)
 
 print(pagina.get_titulo())
-print(pagina.get_usuarios())
-print(pagina.get_senhas())
+print(credenciais.get_usuarios)
 
 pagina.logar('standard_user', 'secret_sauce')
 
