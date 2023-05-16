@@ -88,3 +88,26 @@ Implemente uma automação com **SELENIUM** de acordo com o que se pede:
 |:----------  |:----------------|
 | input       | Uma string     |
 | output      | A url da aba que contém a String passada por parâmetro
+
+### 4. **PAGE OBJECT** - *Exercício da Saude Demo*
+
+Implemente uma automação com SELENIUM de acordo com o que se pede:
+
+1. Acesse o site do [Sauce Demo](https://www.saucedemo.com/)<br>
+![Página de Login](assets/imagens/documentacao/login_sauce_demo.png)
+2. Realize o `Login` no sistema com as seguintes credenciais:
+
+| USERNAME        | SENHA           |
+|:----------      |:----------------|
+| standard_user   | secret_sauce    |
+3. Espanda o Menu-cascata e clique em Logout.<br>
+![Logout do Saude Demo](assets/imagens//documentacao/menu_main_sauce_demo.png)
+
+
+### 4. **Unittest Parte 1** - *Exercício do GitHub*
+Utilizando o Selenium e o que a gente viu hoje sobre unittest faça um caso de teste automatizado com os seguintes passos:
+
+1. Acesse o guitHub: https://github.com/LuizHenriqueVitorino
+2. Clique na opção `Repositories`
+3. Clique no Repositório `python-selenium-notas-de-aula`
+4. Verifique se você está no repositório correto.

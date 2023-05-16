@@ -45,6 +45,11 @@ Alunos do laboratório LASIC Maracanaú que estão iniciando na programação (e
 - [Cauan](https://github.com/cauan-sampaio/curso-selenium/blob/main/abas.py)
 - [João Pedro](https://github.com/jppn123/Selenium-Py/blob/main/AbasEJanelas.py)
 
+#### PAGE OBJECT
+- [João Pedro](https://github.com/jppn123/Selenium-Py/tree/main/sauceDemoTest/main)
+
+#### UNITTEST - Parte 1
+
 ### DESAFIOS
 #### **Testlink** - *Desafio proposto pela GREat-UFC*
 - [João Pedro](https://github.com/jppn123/Selenium-Py/tree/main/great-atividade)
