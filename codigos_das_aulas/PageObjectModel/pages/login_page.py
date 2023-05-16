@@ -1,6 +1,9 @@
 from pages.base_page import BasePage
 from utils.locators import LoginLocatos
 
+class LoginPage:
+    pass
+
 class CaixaLoginPage(BasePage):
     def __init__(self, driver) -> None:
         self.locator = LoginLocatos
