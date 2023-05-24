@@ -13,6 +13,16 @@ https://testlink.org/
 4. Faça alguns assertions na página para confirmar que é o github do Testlink;
 5. (Opcional) Realizar uma pesquisa no GitHub e verificar resultado.
 
+### 2. **Plataforma NL**
+Os Alunos devem realizar testes E2E no site da [Plataforma NL](https://prpi.ifce.edu.br/nl/app_Login/) utilizando a biblioteca Selenium.
+Esta atividade deve ser realizada em grupo.
+<br>
+Este desafio deve atender aos seguintes critérios:
+1. **Casos de Testes:** É necessário que haja um arquivo com os casos de testes escritos;
+2. **Selenium:** Os testes devem ser escritos com a ajuda da biblioteca do `Selenium`;
+3. **GitHub:** O versionamento do código dever ser feito utilizando `git` e `github`;
+4. **Padrão de Projeto:** O código deve ser escrito utilizando algum padrão de Projeto (de preferência o Page Object Model).
+
 ## EXERCÍCIOS
 ### 1. **ESCREVER EM INPUTs** - *Exercício dos formulários*
 
