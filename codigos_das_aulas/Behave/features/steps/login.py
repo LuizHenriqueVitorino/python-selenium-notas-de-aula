@@ -11,7 +11,7 @@ def entrar_no_sistema(context):
 
 @when(u'o usuário digita seu username')
 def escrever_username(context):
-    context.driver.find_element(By.ID, 'user-name').send_keys('standard_user')
+    context.driver.find_element(By.ID, 'user-name').send_keys(context.table[0]['entrada'])
 
 @when(u'digita sua senha')
 def escrever_senha(context):
